@@ -1,0 +1,130 @@
+.header-header {
+    background-color: rgb(223, 251, 60);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+.header-nav {
+    max-width: 992px;
+
+}
+
+
+
+.header-ul {
+    display: flex;
+    margin-right: 40px;
+
+}
+
+
+
+
+.header-li-1-user:hover {
+    background-color: aqua;
+}
+
+.header-li-2-user:hover {
+    background-color: aqua;
+}
+
+
+.header-li-3-user:hover {
+    background-color: aqua;
+}
+
+
+
+.header-li-1-nouser:hover {
+    background-color: aqua;
+}
+
+
+.header-li-2-nouser:hover {
+    background-color: aqua;
+}
+
+
+.header-li-3-nouser:hover {
+    background-color: aqua;
+}
+
+
+.header-li-4-nouser:hover {
+    background-color: aqua;
+}
+
+
+
+.header-li-1-user,
+.header-li-2-user,
+.header-li-3-user,
+.header-li-1-nouser,
+.header-li-2-nouser,
+.header-li-3-nouser,
+.header-li-4-nouser {
+    list-style: none;
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 30px;
+    text-transform: uppercase;
+    /*para que no se corte las palabras del menu
+    al achicar la pantalla*/
+    width: max-content;
+
+}
+
+@media (max-width: 480px) {
+
+    .header-li-1-user,
+    .header-li-2-user,
+    .header-li-3-user {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .header-button {
+        width: 60px;
+        height: 35px;
+    }
+
+    .header-li-1-nouser,
+    .header-li-2-nouser,
+    .header-li-3-nouser,
+    .header-li-4-nouser {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+
+
+}
+
+@media (max-width: 880px) {
+
+
+    .header-li-1-user,
+    .header-li-2-user,
+    .header-li-3-user {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .header-button {
+        width: 60px;
+        height: 35px;
+    }
+
+    .header-li-1-nouser,
+    .header-li-2-nouser,
+    .header-li-3-nouser,
+    .header-li-4-nouser {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+
+}

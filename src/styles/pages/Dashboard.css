@@ -1,0 +1,81 @@
+.dashboard-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: burlywood;
+    height: 85vh;
+    text-align: center;
+}
+
+
+.dashboard-h1 {
+    font-size: medium;
+}
+
+
+
+.dashboard-form,
+.dashboard-h1 {
+    text-align: center;
+}
+
+
+.dashboard-error {
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid red;
+    font-weight: bold;
+    background-color: white;
+}
+
+.dashboard-success {
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid green;
+    font-weight: bold;
+    background-color: white;
+}
+
+.dashboard-div-prod-recibido {
+    background-color: cornflowerblue;
+}
+
+
+
+
+@media (max-width: 480px) {
+
+    .dashboard-h1,
+    .dashboard-h2 {
+        font-size: medium;
+    }
+
+    p {
+        font-size: small;
+    }
+
+}
+
+@media (max-width: 880px) {
+
+    .dashboard-h1,
+    .dashboard-h2 {
+        font-size: medium;
+    }
+
+    .dashboard-p-producto,
+    .dashboard-p-precio,
+    .dashboard-p-descripcion,
+    .dashboard-ejemplo-producto {
+        font-size: small;
+    }
+
+
+    .dashboard-h2-prod-recibido,
+    .dashboard-titulo-prod-recibido,
+    .dashboard-precio-prod-recibido,
+    .dashboard-description-prod-recibido {
+        font-size: medium;
+    }
+}

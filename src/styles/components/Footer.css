@@ -1,0 +1,20 @@
+footer {
+    background-color: rgb(6, 25, 238);
+    width: 100%;
+}
+
+footer p {
+    color: beige;
+}
+
+@media (max-width: 480px) {
+    footer p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 880px) {
+    footer p {
+        text-align: center;
+    }
+}

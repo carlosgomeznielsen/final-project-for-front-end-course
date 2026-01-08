@@ -1,0 +1,34 @@
+.sobrenosotros {
+    height: 84vh;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.seccion-sobrenosotros-uno,
+.seccion-sobrenosotros-dos,
+.seccion-sobrenosotros-tres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.h1-sobrenosotros {
+    text-align: center;
+    background-color: burlywood;
+}
+
+@media (max-width: 480px) {
+    .sobrenosotros {
+        height: 94vh;
+    }
+
+}
+
+@media (max-width: 880px) {}

@@ -1,0 +1,231 @@
+.hero {
+    background-color: burlywood;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    color: black;
+    font-size: 50px;
+}
+
+
+
+.bienvenida-porqueelegirnos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: aquamarine;
+
+}
+
+
+
+
+.seccion-bienvenida {
+    background-color: rgb(179, 83, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+
+
+.titulo-bienvenida {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(148, 230, 230);
+}
+
+.parrafo-bienvenida {
+    color: antiquewhite;
+}
+
+
+
+.seccion-porqueelegirnos {
+    background-color: rgb(201, 139, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.seccion-porqueelegirnos h2,
+h3,
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+.seccion-nuestros-productos {
+    background-color: aqua;
+}
+
+
+.presentacion-productos {
+    background-color: aqua;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.presentacion-productos h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(152, 69, 194);
+    text-align: center;
+
+}
+
+.presentacion-productos p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(1, 1, 161);
+    text-align: center;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 10px;
+    background-color: aqua;
+}
+
+.datos-productos {
+    background-color: rgba(255, 158, 3, 0.936);
+}
+
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+
+.datos h2 {
+    text-align: center;
+
+}
+
+.datos p {
+    text-align: center;
+
+}
+
+.actualizar-borrar-producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.actualizar-boton-producto {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(180, 247, 46);
+
+}
+
+.Borrar-boton-producto {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(247, 237, 46);
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+
+.popup-edit h2 {
+    text-align: center;
+}
+
+
+.formulario-popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup-edit button,
+input,
+textarea {
+    margin-bottom: 10px;
+
+}
+
+
+.popup-edit {
+    background-color: rgb(3, 163, 232);
+}
+
+.home-error {
+    color: red;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid red;
+    font-weight: bold;
+}
+
+.home-success {
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid green;
+    font-weight: bold;
+    background-color: white;
+}
+
+@media (max-width: 480px) {
+    .productos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .datos-productos {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .titulo-bienvenida {
+        text-align: center;
+    }
+
+    .parrafo-bienvenida {
+        text-align: center;
+    }
+
+    .seccion-porqueelegirnos {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    li {
+        list-style-type: none;
+    }
+}
+
+@media (max-width: 880px) {
+    .productos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .datos-productos {
+        width: 427px;
+        height: auto;
+    }
+}
